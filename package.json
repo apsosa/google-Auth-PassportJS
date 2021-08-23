@@ -1,0 +1,28 @@
+{
+  "name": "google-auth-passportjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apsosa/google-Auth-PassportJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apsosa/google-Auth-PassportJS/issues"
+  },
+  "homepage": "https://github.com/apsosa/google-Auth-PassportJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
